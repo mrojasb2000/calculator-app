@@ -1,10 +1,12 @@
 import { View, Text } from 'react-native'
 import React from 'react'
+import { Colors } from '@/constants/theme';
+
 
 const CalculatorApp = () => {
   return (
     <View>
-      <Text>CalculatorApp</Text>
+      <Text style={{ fontSize: 40, fontFamily: 'SpaceMono', color: Colors.textColor }}>CalculatorApp</Text>
     </View>
   )
 }
