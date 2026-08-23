@@ -1,5 +1,4 @@
 import { View, Text } from 'react-native'
-import { Colors } from '@/constants/theme';
 import { globalStyles } from '@/styles/global-styles';
 
 
