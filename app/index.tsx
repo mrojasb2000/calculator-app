@@ -1,14 +1,16 @@
-import { View, Text } from 'react-native'
+import { View } from 'react-native';
 import { globalStyles } from '@/styles/global-styles';
-
+import CustomText from '@/components/atoms/CustomText';
 
 const CalculatorApp = () => {
   return (
-    <View style={ globalStyles.calculatorContainer }>
-      <Text style={globalStyles.mainResult}>25 x 25</Text>
-      <Text style={globalStyles.subResult}>625</Text>
+    <View style={globalStyles.calculatorContainer}>
+      <View style={{ paddingHorizontal: 30 }}>
+        <CustomText variant="h1">25 x 25</CustomText>
+        <CustomText variant="h2">625</CustomText>
+      </View>
     </View>
-  )
-}
+  );
+};
 
-export default CalculatorApp
+export default CalculatorApp;
